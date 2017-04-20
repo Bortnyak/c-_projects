@@ -74,7 +74,7 @@ namespace Lab1_Z1
         {
             PowerState = State.CallMode;
         }
-        
+
         public override void LowBattery()
         {
             PowerState = State.LowBattery;
@@ -104,6 +104,8 @@ namespace Lab1_Z1
             Samsung.TurnOn();
             Samsung.LowBattery();
             Samsung.TurnOff();
+
+            
         }
     }
 }
